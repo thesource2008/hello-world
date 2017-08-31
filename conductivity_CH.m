@@ -3,7 +3,7 @@
 % function of density (gm/cm3) and Temperature 
 % according to Phys. Plasmas 23, 042704 (2016)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%added this line for fun
 function kappa = conductivity_CH(rho,T)
 kb = 1.602176565E-12;                       %Since T is in eV, erg/eV
 [Zbar, Z2bar, Zeff] = ionization_CH(rho,T);
